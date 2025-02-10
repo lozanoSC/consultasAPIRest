@@ -10,7 +10,7 @@ Este proyecto contiene código que:
     -  en plugins:  *kotlin("plugin.serialization") version "1.9.22"*
     -  en dependencias:  *implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")*
 
-![image](https://github.com/user-attachments/assets/18734f81-5720-4c49-aa8f-3b928b0951e9)
+![imagenkts](imagenkts.png)
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
 
 ## Generar las clases Kotlin receptoras de la deserialización.
