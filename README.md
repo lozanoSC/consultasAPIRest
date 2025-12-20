@@ -63,4 +63,5 @@ Que de forma análoga al código ejemplo:
 - obtengas datos json desde kotlin
 - los deserialices desde kotlin
 - y ejecutes sobre ellos tres o cuatro consultas interesantes. Procura que no sean tan simples como la del ejemplo y que usen ordenar, agrupar, mapear, etc.
+- para hacer consultas en tu aplicación de consola puedes pedir por teclado parámetros al usuario para usarlos en las consultas
 
