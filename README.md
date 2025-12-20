@@ -47,9 +47,10 @@ Ejemplo: un navegador, o en nuestro caso una app kotlin de consola que hace peti
 
 ## Configuración del proyecto
 - crea un proyecto con build Gradle
-- configura build.gradle.kts para poder deserializar(convertir) el String Json a clases Kotlin
+- configura build.gradle.kts para poder deserializar(convertir) el String Json a clases Kotlin. La versiones a utilizar tendrás que actualizarlas a tu ersión de kotlin respecto a este ejemplo
     -  en plugins:  *kotlin("plugin.serialization") version "1.9.22"*
     -  en dependencias:  *implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")*
+
 
 ![imagenkts](imagenkts.png)
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
