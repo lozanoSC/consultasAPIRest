@@ -27,7 +27,10 @@ En el lenguaje común aunque no sea preciso, se utiliza también el término API
 Un recurso, de forma simplificada, se refiere a un dato al que podemos acceder a través del API REST, o visto de otra forma, un dato que el API REST expone al exterior
 
 Un endpoint, es la URL concreta que identifica un recurso o una operación dentro de una API REST.
-Ejemplo: /api/alumnos/5 es el endpoint que representa al alumno con id 5.
+Ejemplo: 
+En el código de Main.kt y en las pantallazos de arriba se usa https://jsonplaceholder.org/users
+- el endpoint es GET https://jsonplaceholder.org/users, es decir, la URL + método HTTP que devuelve los datos del recurso
+- el recurso es la colección de usuarios a la que se accede con la URL anterior. La URL suele consistir en la dirección del servidor y a continuación una URI (una secuencia de carpetas) que identifica a un recurso en concreo como /users en nuestro ejemplo
 
 **método HTTP**
 
@@ -64,6 +67,10 @@ cliente comando curl
 
 ![imagenkts](imagenkts.png)
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
+
+cliente kotlin
+
+el código de Main.kt de este proyecto
 
 ## Generar las clases Kotlin receptoras de la deserialización.
 Se pueden escribir a mano cuando el Json es sencillo, o bien,  usar herramientas automáticas utilizando uno de los  plugins de IntelliJ para tal fin,  usando una IA, etc. 
