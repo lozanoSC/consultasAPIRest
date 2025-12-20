@@ -13,12 +13,12 @@ Ejemplo: Apache o Nginx.
 
 **servicio web**
 Es una aplicación que ofrece funcionalidades a través de la red, ejecutándose normalmente sobre un servidor web. Puede devolver datos, ejecutar lógica o acceder a bases de datos.
-Ejemplo: un servicio que permite consultar alumnos almacenados en una base de datos.
+
 
 **API REST**
 Es un conjunto de reglas y estructura que define cómo un servicio web expone sus recursos usando HTTP, siguiendo principios REST (recursos, métodos HTTP, URLs claras).
 
-En el lenguaje común aunque no sea preciso, se utiliza también el término API REST como servicio web. Por ejemplo, "Hice una API REST", sería más correcto decir, "hice un servicio web API REST", o mejor aún ,  "hice un servicio web  que cumple estructura según normas API REST". Así que a efectos prácticos, aunque no sea del todo correcto, usamos API REST como sínonimo de servicio web API REST.
+En el lenguaje común aunque no sea preciso, se utiliza también el término API REST como servicio web. Por ejemplo, "Hice una API REST", sería más correcto decir, "hice un servicio web API REST", o mejor aún ,  "hice un servicio web  que cumple estructura según normas API REST". Pero a efectos prácticos, aunque no sea del todo correcto, usamos API REST como sínonimo de servicio web API REST.
 
 
 
@@ -26,7 +26,7 @@ En el lenguaje común aunque no sea preciso, se utiliza también el término API
 
 Un recurso, de forma simplificada, se refiere a un dato al que podemos acceder a través del API REST, o visto de otra forma, un dato que el API REST expone al exterior
 
-Es la URL concreta que identifica un recurso o una operación dentro de una API REST.
+Un endpoint, es la URL concreta que identifica un recurso o una operación dentro de una API REST.
 Ejemplo: /api/alumnos/5 es el endpoint que representa al alumno con id 5.
 
 **método HTTP**
