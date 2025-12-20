@@ -39,7 +39,13 @@ Ejemplo: GET para obtener datos, POST para añadir un dato.
 **cliente API REST**
 
 Es la aplicación que consume una API REST, enviando peticiones HTTP y procesando las respuestas.
-Ejemplo: un navegador, o en nuestro caso una app kotlin de consola que hace petición GET.
+Ejemplo: un navegador, un comando o en nuestro caso una app kotlin de consola que hace petición GET.
+cliente navegador
+<img width="542" height="682" alt="image" src="https://github.com/user-attachments/assets/29d66b7b-7f7e-431a-b728-a96deee71616" />
+cliente comando curl
+<img width="1466" height="242" alt="image" src="https://github.com/user-attachments/assets/f72210b7-a0b1-4593-9f5d-2a8c7e309bbe" />
+
+
 
 
 
