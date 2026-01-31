@@ -44,11 +44,11 @@ Ejemplo: GET para obtener datos, POST para añadir un dato.
 Es la aplicación que consume una API REST, enviando peticiones HTTP y procesando las respuestas.
 Ejemplo: un navegador, un comando o en nuestro caso una app kotlin de consola que hace petición GET.
 
-cliente navegador
+cliente navegador, el get es implícito, es decir auque no se escriba junto a la URL es el método que se hace
 
 <img width="542" height="682" alt="image" src="https://github.com/user-attachments/assets/29d66b7b-7f7e-431a-b728-a96deee71616" />
 
-cliente comando curl
+cliente comando curl, si no se índica método, por defecto, se hace get.
 
 <img width="1466" height="242" alt="image" src="https://github.com/user-attachments/assets/f72210b7-a0b1-4593-9f5d-2a8c7e309bbe" />
 
