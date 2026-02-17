@@ -72,12 +72,11 @@ cliente comando curl, si no se índica método, por defecto, se hace get.
 
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
 
-cliente kotlin
+## Ejemplo de cliente http
 
-el código de Main.kt de este proyecto
+es el código de Main.kt de este proyecto
 
-## Generar las clases Kotlin receptoras de la deserialización.
-Se pueden escribir a mano cuando el Json es sencillo, o bien,  usar herramientas automáticas utilizando uno de los  plugins de IntelliJ para tal fin,  usando una IA, etc. 
+fíjate que para pasar los datos Json a objetos kotlin necesitamos generar las clases Kotlin receptoras de la deserialización. Estas clases se pueden escribir a mano cuando el Json es sencillo, o bien,  usar herramientas automáticas utilizando uno de los  plugins de IntelliJ para tal fin,  usando una IA, etc. 
 ## SE PIDE
 Que de forma análoga al código ejemplo:
 - eligas una api rest. Puedes utilizar la del ejemplo pero estaría bien que investigues y uses otra si tienes tiempo. 
