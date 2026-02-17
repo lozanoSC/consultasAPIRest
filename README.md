@@ -72,6 +72,7 @@ cliente comando curl, si no se índica método, por defecto, se hace get.
 
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
 
+Observa que tienes que añadir el plugin de serialización y la dependencia json, no borres la configuración preexistente en el fichero.
 ## Ejemplo de cliente http
 
 es el código de Main.kt de este proyecto
