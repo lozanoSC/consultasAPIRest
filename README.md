@@ -77,7 +77,8 @@ Observa que tienes que añadir el plugin de serialización y la dependencia json
 
 es el código de Main.kt de este proyecto
 
-fíjate que para pasar los datos Json a objetos kotlin necesitamos generar las clases Kotlin receptoras de la deserialización. Estas clases se pueden escribir a mano cuando el Json es sencillo, o bien,  usar herramientas automáticas utilizando uno de los  plugins de IntelliJ para tal fin,  usando una IA, etc. 
+###### Generar las clases Kotlin
+Fíjate en el ejemplo que para pasar los datos Json a objetos kotlin necesitamos generar las clases Kotlin receptoras de la deserialización. Estas clases se pueden escribir a mano cuando el Json es sencillo, o bien,  usar herramientas automáticas utilizando uno de los  plugins de IntelliJ, paginas web online, etc. Aunque lo más comodo y preciso suele ser pegar el Json en una IA  y pedirle las clases kotlin
 ## SE PIDE
 Que de forma análoga al código ejemplo:
 - eligas una api rest. Puedes utilizar la del ejemplo pero estaría bien que investigues y uses otra si tienes tiempo. 
