@@ -65,7 +65,7 @@ fun main() {
 
     // Deserializar el JSON a una lista de objetos User
     val users: List<User> = Json.decodeFromString(jsonBody)
-
+    //val users: List<User> = Json.decodeFromString(jsonBody) //también OK, aquí decodeFromString infiere el tipo de la variable users
     //println(users)
 
     // Imprimir los usuarios con diversos campos
