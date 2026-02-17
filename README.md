@@ -29,7 +29,7 @@ Un recurso, de forma simplificada, se refiere a un dato al que podemos acceder a
 Un endpoint, es la URL concreta que identifica un recurso o una operación dentro de una API REST.
 Ejemplo: 
 En el código de Main.kt y en las pantallazos de arriba se usa https://jsonplaceholder.org/users
-- el endpoint es GET https://jsonplaceholder.org/users, es decir, la URL + método HTTP que devuelve los datos del recurso
+- el endpoint es GET https://jsonplaceholder.org/users, es decir, método HTTP + URL  que devuelve los datos del recurso
 - el recurso es la colección de usuarios a la que se accede con la URL anterior. La URL suele consistir en la dirección del servidor y a continuación una URI (una secuencia de carpetas) que identifica a un recurso en concreo como /users en nuestro ejemplo
 
 **método HTTP**
@@ -59,13 +59,17 @@ cliente comando curl, si no se índica método, por defecto, se hace get.
 
 
 ## Configuración del proyecto
-- crea un proyecto con build Gradle
-- configura build.gradle.kts para poder deserializar(convertir) el String Json a clases Kotlin. La versiones a utilizar tendrás que actualizarlas a tu ersión de kotlin respecto a este ejemplo
-    -  en plugins:  *kotlin("plugin.serialization") version "1.9.22"*
-    -  en dependencias:  *implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")*
+- crea un proyecto kotlin con build Gradle, supongamos que usamos IntelliJ
+- observa que en el proyecto hay un fichero de configuración build.gradle.kts. En este fichero podrás consultar la versión del plugin de kotlin que esta usando el proyecto. Algo del estilo
+  ```
+           plugins {
+               kotlin("jvm") version "2.2.20"
+           }
+  ```
+- sabiendo la versión de kotlin, a continuación puedes buscar en google o preguntar a IA como configurar el plugin necesario para trabajar con serialización y la dependencia necesaria para trabajar con json. Nos quedará algo del estilo (teniendo en cuenta que cada uno tendrá versiones diferentes)
 
+<img width="1138" height="280" alt="image" src="https://github.com/user-attachments/assets/d4d4677c-0408-4018-ad6a-b8200e16266d" />
 
-![imagenkts](imagenkts.png)
 no olvides recargar la configuración del kts. Mientras visualicemos el icono de load es que quedan cargas pendientes
 
 cliente kotlin
